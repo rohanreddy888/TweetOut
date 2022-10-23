@@ -2,7 +2,6 @@
     
 
 
-    var tweets = ["hi","hello","yo","bitch","f"];
 
     var textArea = document.querySelector("#text");
     //Returns the element which matches id #text and stores in pText
