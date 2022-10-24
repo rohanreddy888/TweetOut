@@ -1,11 +1,7 @@
 
-    
-
-
-
     var textArea = document.querySelector("#text-area");
     //Returns the element which matches id #text and stores in pText
-    var btnClicked = document.querySelector('#generate-btn');
+    var btnClicked = document.querySelector('#generate');
     //Returns the element which matches id #btn and stores in pBtn
     
 

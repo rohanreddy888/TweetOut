@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #121B22;
+}
+.wrapper{
+    width: 41rem;
+    background: #204254; /*afdafadfafda*/
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+
+.wrapper header{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #ccc;
+
+}
+
+.wrapper .content{
+    margin: 2rem 0;
+    padding: 5%;
+}
+
+.content .tweet-area{
+    display: flex;
+    justify-content: center;
+}
+
+.tweet-area{
+    font-size: 15px;
+}
+
+
+.tweet-area .tweet{
+    font-size: 22px;
+    text-align: center;
+    word-break:break-all;
+    color: #ccc;
+}
+
+.wrapper .buttons{
+    border-top: 0.1px solid #ccc;
+}
+
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.features ul{
+    display: flex;
+    
+}
+
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    cursor: pointer;
+    color: #ccc;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.features ul li:hover{
+    color: #121B22;
+    background-color: #ccc;
+}
+
+.features button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-style: 16px;
+    color: #ccc;
+    background: #204254;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 13px 22px; 
+}
+
