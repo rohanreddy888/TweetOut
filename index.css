@@ -1,111 +1,104 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Didact Gothic', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Didact Gothic", sans-serif;
 }
 
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #042c62;
-    flex-direction: column;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #042c62;
+  flex-direction: column;
 }
-.wrapper{
-    width: 41rem;
-    max-width: 100%;
-    background: #5588ff; 
-    border-radius: 15px;
-    padding: 30px 30px 25px;
-}
-
-.wrapper header{
-    font-family: 'Merienda', cursive;
-    font-size: 3rem;
-    font-weight: 500;
-    text-align: center;
-    color: white;
+.wrapper {
+  width: 41rem;
+  max-width: 100%;
+  background: #5588ff;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
 }
 
-
-
-.wrapper .content{
-    margin: 2rem 0;
-    padding: 5%;
+.wrapper header {
+  font-family: "Merienda", cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
 }
 
-.content .tweet-area{
-    display: flex;
-    justify-content: center;
+.wrapper .content {
+  margin: 2rem 0;
+  padding: 1rem 1rem;
 }
 
-.tweet-area{
-    font-size: 15px;
+.content .tweet-area {
+  display: flex;
+  justify-content: center;
 }
 
-
-.tweet-area .tweet{
-    font-size: 22px;
-    text-align: center;
-    word-break:break-all;
-    color: white;
+.tweet-area {
+  font-size: 15px;
 }
 
-.wrapper .buttons{
-    border-top: 1px solid white;
+.tweet-area .tweet {
+  font-size: 22px;
+  text-align: center;
+  color: white;
 }
 
-.buttons .features{
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    justify-content: space-between;
+.wrapper .buttons {
+  border-top: 1px solid white;
 }
 
-#generate{
-      
-    border: 2px solid;
-    letter-spacing: 1.1px;
+.buttons .features {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
 }
 
-.features ul{
-    display: flex;
-    
+#generate {
+  border: 2px solid;
+  letter-spacing: 1.1px;
 }
 
-.features ul li{
-    list-style: none;
-    margin: 0 5px;
-    height: 47px;
-    width: 47px;
-    display: flex;
-    cursor: pointer;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    border: 2px solid white;
-    transition: all 0.3s ease;
+.features ul {
+  display: flex;
 }
 
-.features ul li:hover{
-    color:#5588ff;
-    background-color: white;
+.features ul li {
+  list-style: none;
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  display: flex;
+  cursor: pointer;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  transition: all 0.3s ease;
 }
 
-.features button{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-style: 16px;
-    color: white;
-    background: #5588ff;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 13px 22px; 
+.features ul li:hover {
+  color: #5588ff;
+  background-color: white;
+}
+
+.features button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-style: 16px;
+  color: white;
+  background: #5588ff;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 13px 22px;
 }
 
 /* .foot{
@@ -120,35 +113,33 @@ body{
     padding: 10px;
 } */
 
-.Footer_footerActionContainer{
-    color: white;
-    width: 300px;
-    height: 60px;
-    background: rgba(0,0,0,.3);
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
-    padding: 0 20px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-
-
-}
-    
-.Footer_footerContainer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Footer_footerActionContainer {
+  color: white;
+  width: 300px;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  padding: 0 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-a{
-    text-decoration: underline;
-    color: white;
+.Footer_footerContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
 }
